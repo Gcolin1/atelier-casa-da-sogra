@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 1.8em;
+    color: #53C279;
+    margin-bottom: 50px;
+}
+
+.subtitulo{
+    font-size: 1.3em;
+    color: #53C279;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 112vh;
+    background: linear-gradient(243deg, #53C279 42.71%, #53B5C2 84.54%); 
+    z-index: -99999;   
+}
+
+.logo-menu{
+    margin-bottom: 30px;
+    width: 120px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    margin: 0 30px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.info-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.info-menu div{
+    margin: 0 30px;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+
+.info h1{
+    margin: 40px 0;
+    font-size: 1.5em;
+}
+
+
+.info p{
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+
+.btn-menu{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1em;
+    border: solid 3px #f2f2f2;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.video video{
+    width: 600px;
+    border-radius: 50px;
+    z-index: 1;    
+}
+
+
+.circulo{
+    width: 100px;    
+    height: 100px;    
+    background: #CAFF32;
+    border-radius: 50%;
+    position: relative;
+    bottom: 70px;
+    right: 70px;
+    z-index: 0;
+}
+
+.waves{
+    position: relative;
+    bottom: 157px;
+}
+
+/*  SOBRE  */
+    
+main{
+    margin-top: 150px ;
+}
+
+
+.content-sobre{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.wave-sobre{
+    position: relative;
+    right: 800px;
+    top: 660px;
+    position: absolute;
+    z-index: -1;
+}
+
+.sobre-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    background: linear-gradient(251.25deg, #53C279 0%, #53B5C2 100%);
+    border-radius: 30px;
+    color: #f2f2f2;
+    padding: 40px;
+}
+
+.sobre-info p{
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#container-servicos{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.servicos div{
+    margin: 0 30px;
+}
+
+.servicos img{
+    width: 500px;
+    border-radius: 50px;
+}
+
+.servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servico-info{
+    width: 400px;
+    background: #fff;
+    padding: 50px 20px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 80px;
+    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
+    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
+    box-shadow: 2px 1px 22px 0px #00000067;
+}
+
+.servico-info h3{
+    margin-bottom: 30px;
+}
+
+.servico-info p{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 30px;
+    text-align: justify;
+}
+
+.wave-servico{
+    position: absolute;
+    left: 444px;
+    top: 1300px;
+    z-index: -1;
+}
+
+/* CONTATO  */
+
+#contato{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.fundo-contato{
+    background: url(img/contatoFundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 50px 0 0 50px;
+    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
+    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
+    box-shadow: 2px 1px 22px 0px #00000067;
+}
+
+.fundo-contato h3{
+    margin: 8px 0;
+}
+
+.redes-sociais{
+    margin: 70px 0px;
+}
+
+.redes-sociais a{
+    margin: 0 20px;
+}
+
+.redes-sociais img{
+    width: 60px;
+}
+
+.inputs{
+    text-align: center;
+    width: 600px;
+    padding: 20px 50px;
+    background: #ffffff;
+    border-radius: 0 50px 50px 0;
+    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
+    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
+    box-shadow: 2px 1px 22px 0px #00000067;
+}
+
+.inputs h3{
+    margin: 50px 0;
+}
+
+.login-label{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9em;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: var(--deep-grey);
+}
+
+.login-label textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    font-size: 1.2em;
+}
+
+.login-label span{
+    position: absolute;
+    font-size: 0.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin: 20px;
+    cursor: text;
+    transition: all 200ms ease;
+}
+
+.input:focus{
+    background: #fff;
+    border: 2px solid #888888;
+}
+
+.login-label .span-active{
+    font-size: 0.7em;
+    margin: 8px 10px;
+}
+
+.mensagem-envio{
+    color: #f74269;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn-contato{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: bold;
+    background: #53C279;
+    font-size: 1em;
+    color: #f2f2f2;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.btn-contato:hover{
+    -webkit-box-shadow:2px 1px 22px 0px rgba(62,66,66,0.7);
+    -moz-box-shadow: 2px 1px 22px 0px rgba(62,66,66,0.7);
+    box-shadow: 2px 1px 22px 0px #014619;
+}
+
+/* RODAPE */
+
+footer{
+    background: linear-gradient(251.25deg, #53C279 0%, #53B5C2 100%);
+    text-align: center;
+    font-size: 1.1em;
+    padding-bottom: 10px ;
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.logo-rodape{
+    margin-bottom: 30px;
+}
+
+.info-rodape{
+    margin: 0 200px;
+}
+
+.info-rodape p{
+    margin: 10px 0;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.abrir-menu{
+    display: none;
+}
+
+.fechar-menu{
+    display: none;
+}
+
+@media (max-width: 420px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .abrir-menu{
+        display: block;
+        background: transparent;
+        border: none;
+        position: relative;
+        left: 16%;
+    }
+
+    .logo-menu{
+        position: relative;
+        right: 60%;
+    }
+
+    .abrir-menu div{
+        background: #fff;
+        width: 32px;
+        height: 3px;
+        margin: 5px 0;
+        z-index: 2;
+    }
+
+    .fechar-menu div{
+        background: #53C279;
+        width: 32px;
+        height: 3px;
+        margin: 5px 0;
+    }
+
+    .fechar-menu{
+        background: transparent;
+        border: none;
+    }
+
+    .fechar1{
+        transform: rotate(-45deg) translate(-1px, 4.5px);
+    }
+    
+    .fechar2{
+        transform: rotate(45deg) translate(-1px, -4.5px);
+    }
+
+    .menu-active{
+        width: 200px;
+        visibility: visible;
+    }
+
+    header ul{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: #f2f2f2;
+        width: 0px;
+        height: 60vh;
+        justify-content: space-around;
+        transform-origin: right;
+       
+        text-align: center;
+        align-items: center;
+        display: block;
+        right: 0;
+        top: 0;
+        transition: .6s;
+        visibility: hidden;
+        overflow-x: hidden;
+    }
+
+    .menu ul li a{
+        color: #53C279;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 1.5em;
+        color: #53C279;
+        margin-bottom: 50px;
+    }
+
+    .info-menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .waves{
+        display: none;
+    }
+
+    .wave-servico, 
+    .wave-sobre{
+        display: none;
+    }
+
+    .circulo{
+        width: 70px;    
+        height: 70px;    
+        background: #CAFF32;
+        border-radius: 50%;
+        position: relative;
+        bottom: 40px;
+        right: 40px;
+        z-index: 0;
+    }
+    
+    .video video{
+        width: 300px;
+        border-radius: 50px;
+        z-index: 1;    
+    }
+
+    .sobre-info{
+        width: 90%;
+    }
+
+    .servicos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .servicos div{
+        margin: 0 30px;
+    }
+    
+    .servicos img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .servico{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .servico-info{
+        width: 250px;
+        padding: 30px 20px;
+        position: relative;
+        bottom: 40px;
+    }
+    
+    #contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fundo-contato{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 1.2em;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .fundo-contato h3{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .inputs{
+        text-align: center;
+        width: 90%;
+        padding: 20px 50px;
+        background: #ffffff;
+        border-radius: 0 0 50px 50px;
+    }
+
+    footer{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    
+    .logo-rodape{
+        width: 120px;
+    }
+    
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        margin: 0 50%;
+    }
+
+    .redes-sociais img{
+        width: 40px;
+    }
+
+}

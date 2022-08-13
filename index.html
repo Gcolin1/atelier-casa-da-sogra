@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atelier cada da sogra</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <a href="#"><img src="img/logo-menu.png" alt="logo" class="logo-menu"></a>
+            <button class="abrir-menu" onclick="abrir()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </button>
+            <ul class="responsivo">
+                <button class="fechar-menu" onclick="fechar()">
+                    <div class="fechar1"></div>
+                    <div class="fechar2"></div>
+                </button>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#container-servicos">Serviços</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <section class="info-menu">
+            <div class="video">
+                <video src="video/video-menu.mp4" autoplay plays-inline muted    loop></video>
+                <div class="circulo"></div>
+            </div>
+
+            <div class="info">
+                <h1>Bem vindo ao Atelier <br>Casa da Sogra</h1>
+                <p>Esculturas para jardim, artesanatos, e muito mais!, <br> <br>
+
+                    clique no botão abaixo e garanta nossos serviços
+                </p>
+                <a class="btn-menu" href="#container-servicos">Saiba mais!</a>
+            </div>
+        </section>
+
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2f2f2" fill-opacity="1" d="M0,64L60,106.7C120,149,240,235,360,245.3C480,256,600,192,720,192C840,192,960,256,1080,277.3C1200,299,1320,277,1380,266.7L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    </header>
+
+    <main>
+        <section id="sobre">
+
+            <div class="content-sobre">
+                <img class="wave-sobre" src="img/wave-sobre.svg" alt="">
+
+                <h2 class="titulo">Sobre</h2>
+                
+                <div class="sobre-info">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem odit ullam et illo magnam provident atque eius enim doloribus tempora! Adipisci doloremque maxime ea voluptatum quos odio natus soluta suscipit!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, impedit quis molestias quidem, dolor doloribus odit atque, corrupti eligendi maxime minima iure recusandae facere aspernatur soluta numquam quam ratione cum?</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="container-servicos">
+            <h2 class="titulo">Nossos serviços</h2>
+            <div class="servicos">
+                <div class="servico">
+                    <img src="img/servico1.jpg" alt="serviço 1">
+                    <article class="servico-info">
+                        <h3 class="subtitulo">decorações para jardins e varandas</h3>
+                        <p>esculturas para jardins feitas em concreto, gesso, madeira e fibra de vidro </p>
+                    </article>
+                </div>
+
+                <div class="servico">
+                    <img src="img/servico1.jpg" alt="serviço 2">
+                    <article class="servico-info">
+                        <h3 class="subtitulo">decorações para casas e interiores</h3>
+                        <p>esculturas para interiores com, cimento, gesso, madeira e fibra de vidro  </p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="wave-servico">
+                <img src="img/wave-servico.svg" alt="wave-servico">
+            </div>
+        </section>
+
+        <h3 class="titulo">entre em contato conosco</h3>
+
+        <section id="contato">
+            <div class="fundo-contato">
+                <h3>Formas de entrar em contato conosco</h3>
+                <div class="redes-sociais">
+                    <a href=""><img src="img/facebook.png" alt="facebook"></a>
+                    <a href=""><img src="img/whatsapp.png" alt="whatsapp"></a>
+                    <a href=""><img src="img/instagram.png" alt="instagram"></a>
+                </div>
+                <h3>cosmecolin9@gmail.com</h3>
+                <h3>(11)95261-5165</h3>
+            </div>
+
+            <div class="inputs">
+                <h3 class="subtitulo">coloque suas informações abaixo</h3 >
+                <form type="submit" method="POST">
+                    <label class="login-label">
+                        <span>nome</span>
+                        <input type="text" name="nome" class="input">
+                    </label>
+                    <label class="login-label">
+                        <span>Email</span>
+                        <input type="email" name="email" class="input">
+                    </label>
+                    <label class="login-label">
+                        <span>Telefone</span>
+                        <input type="tel" name="fone" class="input">
+                    </label>
+                    <label class="login-label">
+                        <span>Assunto</span>
+                        <textarea name="mens" class="input"></textarea>
+                    </label>
+                
+                    <button class="btn-contato" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <div><a href="#"><img class="logo-rodape" src="img/logo-menu.png" alt="logo do rodape"></a></div>
+            <div class="info-rodape">
+                <p>cosmecolin9@gmail.com</p>
+                <p>(11)95261-5165</p>
+            </div>
+            <div class="redes-sociais">
+                <a href=""><img src="img/facebook.png" alt="facebook"></a>
+                <a href=""><img src="img/whatsapp.png" alt="whatsapp"></a>
+                <a href=""><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>Todos os direitos reservados por Atelier casa da sogra</p>
+        </div>
+
+    </footer>
+
+    <script src="index.js" ></script>
+</body>
+</html>
