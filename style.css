@@ -435,6 +435,10 @@ footer{
         transform: rotate(45deg) translate(-1px, -4.5px);
     }
 
+    .fechar-menu{
+        display: block;
+    }
+
     .menu-active{
         width: 200px;
         visibility: visible;
