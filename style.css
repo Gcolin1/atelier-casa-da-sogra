@@ -572,6 +572,7 @@ footer{
        display: flex;
        flex-direction: column;
        align-items: center;
+       overflow-x: hidden;
     }
     
     .logo-rodape{
@@ -588,4 +589,5 @@ footer{
         width: 40px;
     }
 
+    
 }
